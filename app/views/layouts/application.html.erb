@@ -1,14 +1,24 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Undr</title>
+  <title>UNDR_</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
 
+	<header>
+		<h1><a href = /pages/landing_page> UNDR_ </a></h1>
+	</header>
+
 <%= yield %>
+
+	<footer>
+		<a href = /pages/landing_page> Home </a>
+		<a href = /pages/about> About </a>
+		<a href = /pages/contact> Contact </a>
+	</footer>
 
 </body>
 </html>
